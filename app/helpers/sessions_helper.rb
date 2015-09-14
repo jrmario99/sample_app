@@ -1,4 +1,5 @@
 module SessionsHelper
+<<<<<<< HEAD
 
   # Logs in the given user.
   def log_in(user)
@@ -15,3 +16,6 @@ module SessionsHelper
     !current_user.nil?
   end
 end
+=======
+end
+>>>>>>> log-in-log-out
