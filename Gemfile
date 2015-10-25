@@ -11,6 +11,8 @@ gem 'will_paginate','3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
 gem 'jquery-rails', '4.0.3'
 gem 'turbolinks',   '2.3.0'
+gem 'rails-i18n', '~> 4.0.0' # For 4.0.x
+gem 'route_translator'
 gem 'jbuilder',     '2.2.3'
 gem 'sdoc',         '0.4.0', group: :doc
 

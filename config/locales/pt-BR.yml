@@ -1,0 +1,132 @@
+"pt-BR":
+  hello: "Ola mundo"
+  activerecord:
+    models:
+      user:
+        one: "Usuário"
+        other: "Usuários"
+    attributes:
+      user:
+        name: "Nome"
+        email: "Email"
+        password: "Senha"
+        password_confirmation: "Confirmação da senha"
+  errors:
+    format: "%{attribute} %{message}"
+    messages:
+      accepted: deve ser aceito
+      blank: não pode ficar em branco
+      present: deve ficar em branco
+      confirmation: não é igual a %{attribute}
+      empty: não pode ficar vazio
+      equal_to: deve ser igual a %{count}
+      even: deve ser par
+      exclusion: não está disponível
+      greater_than: deve ser maior que %{count}
+      greater_than_or_equal_to: deve ser maior ou igual a %{count}
+      inclusion: não está incluído na lista
+      invalid: não é válido
+      less_than: deve ser menor que %{count}
+      less_than_or_equal_to: deve ser menor ou igual a %{count}
+      not_a_number: não é um número
+      not_an_integer: não é um número inteiro
+      odd: deve ser ímpar
+      record_invalid: 'A validação falhou: %{errors}'
+      restrict_dependent_destroy:
+        one: Não é possível excluir o registro pois existe um %{record} dependente
+        many: Não é possível excluir o registro pois existem %{record} dependentes
+      taken: já está em uso
+      too_long: 'é muito longo (máximo: %{count} caracteres)'
+      too_short: 'é muito curto (mínimo: %{count} caracteres)'
+      wrong_length: não possui o tamanho esperado (%{count} caracteres)
+      other_than: deve ser diferente de %{count}
+    template:
+      body: 'Por favor, verifique o(s) seguinte(s) campo(s):'
+      header:
+        one: 'Não foi possível gravar %{model}: 1 erro'
+        other: 'Não foi possível gravar %{model}: %{count} erros.'
+  helpers:
+    select:
+      prompt: Por favor selecione
+    submit:
+      create: Criar %{model}
+      submit: Salvar %{model}
+      update: Atualizar %{model}
+  layouts:
+    about: Sobre
+    contact: Contato
+    news: Notícias
+    home: Página inicial
+    help: Ajuda
+    users: Usuários
+    account: Conta
+    profile: Perfil
+    settings: Configurações
+    log_out: Sair
+    log_in: Entrar
+  password_resets:
+    password_reset: Redefinição de senha
+    update_password: Salvar senha
+    forgot_password: Perdeu sua senha
+    submit: Enviar
+  sessions:
+    log_in: Entrar
+    remember: Lembrar-me neste computador
+    sign_up_now: Cadastre-se agora!
+    new_user: Novo usuário?
+  static_pages:
+    home: Página inicial
+    micropost_feed: Feed de microposts
+    welcome_to_the_sample_app: Bem vindo a Sample App
+    this_is_home_page: Esta é a página inicial do
+    sign_up_now: Cadastre-se agora!
+    help: Ajuda
+    about: Sobre
+    the: O
+    is_a: é o
+    book: livro
+    and: e
+    screencast_series: série de vídeos
+    to_teach_web_development_with: para aprender desenvolvimento web com
+    this_is_sample_app_for_the_tutorial: Esta é a sample application para o tutorial.
+    get_help_on_the_ror_at_the: Consiga ajuda com o Ruby On Rails Tutorial na
+    rails_tutorial_help_section: Seção de ajuda do Rails Tutorial
+    to_get_help_on_this_sample_app_see_the: 'Para ajuda nesta aplicação de exemplo, leia em:'
+    contact: Contato
+    contact_the_ror_tutorial_about_the_sample_app_at_the: Contate o Ruby On Rails Tutorial a respeito desta aplicação de exemplo na
+    contact_page: página de contato
+  user_mailer:
+    reset_password_click: Para resetar sua senha clique no link abaixo.
+    expires: Este link expira em 2 horas.
+    request_to_be_reset: 'Se você não quer resetar a sua senha, por favor ignore este e-mail.'
+    password_reset: Resete sua senha
+    hi: Olá
+    welcome_to_the_sample_app: 'Seja bem-vindo a Sample App! Clique no link abaixo para ativar a sua conta:'
+    activate: Ativar
+  flash:
+    account_activated: 'Conta ativada!'
+    account_not_activated_with_error: 'Conta não foi ativada, ocorreu algum erro!'
+    please_log_in: 'Por favor, faça o login!'
+    micropost_created: 'Micropost criado!'
+    micropost_deleted: 'Micropost excluído!'
+    email_send_with_reset_password_instructions: 'Foi enviado um e-mail para você com instruções para resetar a senha!'
+    email_not_found: E-mail não encontrado
+    password_has_been_reseted: Senha resetada com sucesso
+    password_reset_expired: Link de resetar senha expirou
+    account_not_activated: A conta não foi ativada.
+    check_your_email_to_activation_link: Cheque o seu e-mail para receber o link de ativação
+    invalid_email_password_combination: Combinação de e-mail e senha inválida.
+    profile_updated: Perfil atualizado.
+    following: Seguindo
+    followers: Seguidores
+    user_deleted: Usuário excluído
+  users:
+    follow: Seguir
+    unfollow: Não seguir
+    delete: Excluir
+    you_sure: Tem certeza?
+    edit_user: Editar usuário
+    update_your_user: Edite o seu usuário
+    all_users: Todos os usuários
+    sign_up: Cadastre-se
+    create_my_account: Criar minha conta
